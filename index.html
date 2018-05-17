@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Possum</title>
+  <title>JSDFinalProject</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
   <script src="app.js"></script>
+  
+  
 </head>
 <body>
     <div id="menu">
@@ -38,4 +39,19 @@
     <a href="#">Breakdown</a>
   </div>
 </div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZmxhbmFnYW5mcmFuazciLCJhIjoiY2pncXpmN2N3MG90MjMzbWxkZTBicjB3NCJ9.ycGp1T4CKi8BVcd31RxzZA';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+        // Use for JS Plot
+        // center:[-77.03238901390978, 38.913188059745586],
+        // Use for Studio Plot
+        center: [-74.0632, 40.7332],
+        zoom: 12, 
+        style: 'mapbox://styles/flanaganfrank7/cjgqvimcr000d2rnu4cjal1v7'
+    }); 
+</script>
+</body>
 </html>

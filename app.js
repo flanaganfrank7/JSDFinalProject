@@ -1,13 +1,13 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiZmxhbmFnYW5mcmFuazciLCJhIjoiY2pncXpmN2N3MG90MjMzbWxkZTBicjB3NCJ9.ycGp1T4CKi8BVcd31RxzZA';
-var map = new mapboxgl.Map({
-    container: 'map',
-        // Use for JS Plot
-        // center:[-77.03238901390978, 38.913188059745586],
-        // Use for Studio Plot
-        center: [-74.0632, 40.7332],
-        zoom: 12, 
-        style: 'mapbox://styles/flanaganfrank7/cjgqvimcr000d2rnu4cjal1v7'
-    });
+// mapboxgl.accessToken = 'pk.eyJ1IjoiZmxhbmFnYW5mcmFuazciLCJhIjoiY2pncXpmN2N3MG90MjMzbWxkZTBicjB3NCJ9.ycGp1T4CKi8BVcd31RxzZA';
+// var map = new mapboxgl.Map({
+//     container: 'map',
+//         // Use for JS Plot
+//         // center:[-77.03238901390978, 38.913188059745586],
+//         // Use for Studio Plot
+//         center: [-74.0632, 40.7332],
+//         zoom: 12, 
+//         style: 'mapbox://styles/flanaganfrank7/cjgqvimcr000d2rnu4cjal1v7'
+//     });
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
     document.getElementById("menu").style.visibility='hidden';
