@@ -7,7 +7,7 @@ let userData = {
 	"la": 40.76727216,
 	"lo": -73.99392888,
 	"timestamp":"monday"
-	}]
+	}],
 "user2": [
 	{
 	"id": 2,
