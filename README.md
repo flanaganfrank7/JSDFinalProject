@@ -4,8 +4,6 @@
 
 ## Project Schedule
 
-ALICIA
-
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
@@ -60,6 +58,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 	•	Allow user to set an interval of time, that will display locations of that interval on a map
 	•	Hover over map points to reveal point info (venue, time, category, and maybe frequency) 
 	•	Implement some sort of categorical breakdown in a graph, possibly two 
+	•	Allow users to upload a file or paste a csv url, that will populate across the map
+
 	
 *for the purpose of this project, im going to curate data for 3-5 five users, though for post-MVP i’d like to connect this a breathing dataset with unlimited data. 
 
