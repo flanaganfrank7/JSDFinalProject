@@ -84,6 +84,7 @@ test();
 // FETCH THE DATA 
 function makeCall(){
     fetch(VariableForGoogleSheetLink)
+        // If this doesnt work, may need to JSON.parse()
         .then(res => res.json())
         .then(data => {
             plot(data)
@@ -105,7 +106,7 @@ function plot(data){
 
 // ADD A HOVER INFO BOX
 // Going to want to reveal info about each point on the map on hover
- 
+
 
 
 
