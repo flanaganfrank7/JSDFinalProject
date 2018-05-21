@@ -79,9 +79,12 @@ test();
         });
     });
 
-// Thinking about importing data 
 
-// FETCH THE DATA 
+/*
+// Thinking about importing data
+
+
+// FETCH THE DATA
 function makeCall(){
     fetch(VariableForGoogleSheetLink)
         // If this doesnt work, may need to JSON.parse()
@@ -92,12 +95,12 @@ function makeCall(){
 }
 
 // PLOT THE POINTS
-function plot(data){ 
+function plot(data){
 // Path to Data
     pathToData.forEach( d => {
         // Mapbox Syntax for Plotting Points/Creating Marker Should Go Here
-        position : {lat: d.la, lon: d.lo}, 
-        map: map, 
+        position : {lat: d.la, lon: d.lo},
+        map: map,
         title: d.venueName
         // Will need to add if/else to style point
         // If d.cat = QSR then style = teal, else if d.cat = Retail then style = pink, etc. etc.
@@ -106,8 +109,4 @@ function plot(data){
 
 // ADD A HOVER INFO BOX
 // Going to want to reveal info about each point on the map on hover
-
-
-
-
-
+*/

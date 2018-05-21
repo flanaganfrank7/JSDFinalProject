@@ -7,8 +7,8 @@
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
   <script src="app.js"></script>
-  
-  
+
+
 </head>
 <body>
     <div id="menu">
@@ -26,7 +26,7 @@
         <h3 class="navtext" id="interval">interval
            <!--  <span style="float: right; margin-right: 30px;">&#x25BC</span> -->
         </h3>
-    </div> 
+    </div>
 	<div id='map' style="height:100%; min-height:768px; max-width:1920px;width: 100%"></div>
     <div id="myNav" class="overlay">
 
@@ -43,15 +43,15 @@
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZmxhbmFnYW5mcmFuazciLCJhIjoiY2pncXpmN2N3MG90MjMzbWxkZTBicjB3NCJ9.ycGp1T4CKi8BVcd31RxzZA';
 
-var map = new mapboxgl.Map({
+let map = new mapboxgl.Map({
     container: 'map',
         // Use for JS Plot
         // center:[-77.03238901390978, 38.913188059745586],
         // Use for Studio Plot
         center: [-74.0632, 40.7332],
-        zoom: 12, 
+        zoom: 12,
         style: 'mapbox://styles/flanaganfrank7/cjgqvimcr000d2rnu4cjal1v7'
-    }); 
+    });
 </script>
 </body>
 </html>
